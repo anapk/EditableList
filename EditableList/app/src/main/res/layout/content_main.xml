@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.zmf.editablelist.MainActivity"
+    android:background="#00cccc"
     tools:showIn="@layout/activity_main">
 
     <LinearLayout
@@ -38,6 +39,7 @@
     </LinearLayout>
 
     <ListView
+        android:background="#cccc00"
         android:id="@+id/list_stocks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
